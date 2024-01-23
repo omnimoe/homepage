@@ -1,6 +1,9 @@
 <script setup lang="ts">
 
 import TitleComponent from '@/components/TitleComponent.vue'
+import UserCardComponent from '@/components/UserCardComponent.vue'
+
+const stats = true;
 </script>
 
 <template>
@@ -11,7 +14,13 @@ import TitleComponent from '@/components/TitleComponent.vue'
           <title-component title="消息中心" />
         </div>
       </div>
-      <div class="relative hidden w-3/12 shrink-0 md:block md:grow-0"></div>
+      <div class="relative hidden w-3/12 shrink-0 md:block md:grow-0">
+        <div class="relative mt-2 ml-3 max-w-[244px]">
+          <div class="space-y-2">
+            <user-card-component :stats="stats" />
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 </template>

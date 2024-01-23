@@ -6,7 +6,7 @@ import { RouterView } from 'vue-router'
   <div class="w-full h-14 bg-white shadow-sm backdrop-blur">
     <nav class="flex mx-auto max-w-5xl items-center justify-between px-2 py-2 md:py-0">
       <span class="py-2 hidden md:block">
-        <img src="./assets/images/logo.png.webp" alt="header_logo" width="28" height="28"
+        <img src="./assets/images/logo.png.webp" alt="header_logo" :width="28" :height="28"
              class="cursor-pointer hover:animate-spin">
       </span>
       <div class="inline-flex flex-auto items-stretch rounded-md bg-white px-2 md:flex-none">
