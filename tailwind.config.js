@@ -11,6 +11,9 @@ export default {
       },
       textColor:{
         "new-blue": "#3b82f6"
+      },
+      backgroundColor:{
+        "gray-150": "#f9fafb"
       }
     },
   },

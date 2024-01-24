@@ -1,0 +1,170 @@
+[
+    {
+        "hot_new": "new/hot",
+        "title": "一款真正的云原生 Kafka 解决方案",
+        "item": "该项目是基于云原生重新设计的新一代 Kafka 发行版。在保持和 Apache Kafka 100%兼容前提下，AutoMQ 可以为用户提供高达 10 倍的成本优势以及百倍的弹性优势，同时支持秒级分区迁移和流量自动重平衡，解决运维痛点。",
+        "user": "AutoMQ",
+        "type": "Java",
+        "read": "819",
+        "time": "五天前"
+    },{
+        "hot_new": "new/hot",
+        "title": "一款简单好用的在线个人书库",
+        "item": "该项目是基于 Calibre 的个人图书管理系统，后端是 Python 的 Tornado Web 框架，前端采用 Vue.js 构建。它不仅拥有美观的界面而且安装简单，支持在线阅读、导入书籍、推送到 Kindle、私人模式等功能。",
+        "user": "tabebook",
+        "type": "JavaScript",
+        "read": "3.1k",
+        "time": "一个月前"
+    },{
+        "hot_new": "new/hot",
+        "title": "现代 C++ 编程课程",
+        "item": "该教程面向有一定 C++ 编程基础的人，内容涵盖 C++ 编程的基础知识、高级 C++ 语义和概念。它免费且持续更新，共 22 讲约 1500 张幻灯片，实践教学不冗长，用简短的描述和代码进行讲解，许多例子和问题都来自一线开发者的真实案例。",
+        "user": "federico-busato",
+        "type": "C++",
+        "read": "1.1k",
+        "time": "一个月前"
+    },{
+        "hot_new": "new",
+        "title": "手绘风格的白板 Web 应用",
+        "item": "这是一款完全免费、开源的基于无限画布的白板 Web 应用，用户可以在上面创建手绘风格的作品。支持包括中文在内的多种语言，提供了自由绘制、多种工具、导出 PNG、实时协作、共享链接、自动保存等功能。",
+        "user": "excalidraw",
+        "type": "TypeScript",
+        "read": "1.4k",
+        "time": "八天前"
+    },{
+        "hot_new": "new",
+        "title": "安卓内核级的 root 方案",
+        "item": "这是 Android 的 root 解决方案，它工作在内核模式，可直接在内核空间中为用户空间应用程序授予 root 权限，支持 GKI 2.0 的设备（内核版本 5.10 以上）。",
+        "user": "tiann",
+        "type": "Kotlin",
+        "read": "690",
+        "time": "九天前"
+    },{
+        "hot_new": "new",
+        "title": "更快的 Python 即时编译器",
+        "item": "这是一种 Python 语言实现的解释器，因为其采用了 JIT（即时编译器），所以可以提前将 Python 代码提前编译成机器码，相较于官方的 CPython 更快、更节省内存，但启动时需要更长的时间。",
+        "user": "pypy",
+        "type": "Python",
+        "read": "674",
+        "time": "九天前"
+    },{
+        "hot_new": "new",
+        "title": "AI 加持的家务机器人",
+        "item": "这是一个低成本的全身遥控操作系统，它可以通过模仿学习人类的行为，学会家务类型的活动。比如操作员演示 50 次煎炒虾，该机器人就可以自主完成炒虾的操作，作者团队还演示了擦玻璃、洗碗、收纳物品等任务。",
+        "user": "MarkFzp",
+        "type": "AI",
+        "read": "637",
+        "time": "10天前"
+    },{
+        "hot_new": "new",
+        "title": "流行、设计精美的 UI 组件集合",
+        "item": "这是一款由 Vercel 开源、采用 React 编写的 UI 组件集合，内含仪表板、卡片、模型对话、表单、登录等示例，拿来即用。通过 CLI 引入组件后，将得到该组件的源码，可随意修改。",
+        "user": "shadcn-ui",
+        "type": "TypeScript",
+        "read": "1.1k",
+        "time": "13天前"
+    },{
+        "hot_new": "new",
+        "title": "开源的3D建模软件",
+        "item": "这是一款知名的开源三维参数化建模软件，可用于创建三维原型。它易用、灵活、支持多种文件格式，适用于 Windows、Linux 和 macOS 操作系统。",
+        "user": "FreCAD",
+        "type": "C++",
+        "read": "913",
+        "time": "13天前"
+    },{
+        "hot_new": "new",
+        "title": "将 Github Copilot 转成 ChatGPT 的服务",
+        "item": "该项目可以将 GitHub Copilot 转换成 ChatGPT 的服务，为什么要这么做呢？因为如果你在 GitHub 上有一个开源项目，就有机会免费使用 Copilot，除此之外学生和老师在完成认证后也可以免费使用 Copilot，一番操作下来就等于白嫖 GPT-4。一定要按照推荐的方式部署，否则有封号风险，仅限自用。",
+        "user": "aaamoon",
+        "type": "Go",
+        "read": "3.2k",
+        "time": "6天前"
+    },{
+        "hot_new": "new",
+        "title": "自由构建 React 富文本编辑器",
+        "item": "这是一款即插即用的 React 富文本编辑器，支持 Markdown、所见即所得，以及专注于编辑器的可重用组件。",
+        "user": "udecode",
+        "type": "TypeScript",
+        "read": "788",
+        "time": "13天前"
+    },{
+        "hot_new": "new",
+        "title": "用 Notion 的方式管理客户关系的平台",
+        "item": "该项目是由社区驱动的开源客户关系管理系统（CRM），可以通过可视化流程的方式管理你的客户，灵感来自 Notion。提供了添加、筛选、排序和跟踪客户等功能，支持自托管即自行通过源代码免费构建服务。",
+        "user": "twentyhq",
+        "type": "TypeScript",
+        "read": "1.4k",
+        "time": "13天前"
+    },{
+        "hot_new": "new",
+        "title": "打开就能看电影的 Web 应用",
+        "item": "它是一个前端项目，拥有简约、美观的前端界面，支持搜索、播放/下载电影、自动保存观看进度。该项目仅链接第三方影视资源，并不提供或保存任何作品。",
+        "user": "movie-web",
+        "type": "TypeScript",
+        "read": "1.4k",
+        "time": "13天前"
+    },{
+        "hot_new": "hot",
+        "title": "苹果开源的多模态语言大模型",
+        "item": "雪貂（Ferret）是苹果公司开源的多模态 LLM 模型，它可以分析和识别图像上的信息，并绘制边界框，当查询时可以做出响应。即提供一张图片，询问关于图像上信息的问题，它便可以分析图像后给出作答。",
+        "user": "apple",
+        "type": "Python",
+        "read": "2.3k"
+    },{
+        "hot_new": "hot",
+        "title": "专为程序员打造的记事本",
+        "item": "这是一款专供开发者的便签应用，它的强大之处在于可以轻松将不同的内容分块暂存起来，支持自动语法高亮、自动格式化、计算器模式、多光标编辑、全局热键等功能，适用于 Windows、macOS 和 Linux。",
+        "user": "heyman",
+        "type": "JavaScript",
+        "read": "6.9k",
+        "time": "15天前"
+    },{
+        "hot_new": "hot",
+        "title": "开源、免费的 TikTok 下载器",
+        "item": "该项目是基于 Python 的 requests 库实现的 TikTok（抖音）下载工具，支持批量下载作品、点赞/收藏/评论数、封面图、去水印等功能，可用于采集视频素材、分析账号等，提供了开箱即用的 .exe 程序和 WebUI 交互界面。",
+        "user": "JoeanAmier",
+        "type": "Python",
+        "read": "2k",
+        "time": "23天前"
+    },{
+        "hot_new": "hot",
+        "title": "(no)SQL 数据库桌面管理工具",
+        "item": "这是款免费、开源的数据库桌面管理工具，支持包括 MySQL、PostgreSQL、SQL Server、MongoDB、SQLite、Redis 等多种数据库，适用于 Windows、Linux、macOS 系统。",
+        "user": "dbgate",
+        "type": "Svelte",
+        "read": "7.6k",
+        "time": "8天前"
+    },{
+        "hot_new": "hot",
+        "title": "Django 集成 Tailwind CSS 的库",
+        "item": "该项目可以让你在 Django 项目中轻松地使用 Tailwind CSS 框架，内含 Tailwind CSS 官方的排版、表单、line-clamp 等插件。",
+        "user": "timonweb",
+        "type": "Python",
+        "read": "2.6k",
+        "time": "11天前"
+    },{
+        "hot_new": "hot",
+        "title": "Go 写的网站链接检查工具",
+        "item": "该项目通过多线程和递归的方式，检查目标网站中所有页面的链接。它使用简单、速度快，支持 a、img、link、script 等多种标签。",
+        "user": "raviqqe",
+        "type": "Go",
+        "read": "3.9k",
+        "time": "14天前"
+    },{
+        "hot_new": "hot",
+        "title": "一款功能丰富的在线阅读平台",
+        "item": "该项目可以在本地架设一个阅读漫画和电子书的 Web 平台，在手机、平板、台式机等设备上都有着出色的访问体验。",
+        "user": "Kareadita",
+        "type": "C#",
+        "read": "7.6k",
+        "time": "18天前"
+    },{
+        "hot_new": "new",
+        "title": "计算机视觉 AI 工具库",
+        "item": "该项目简化了对象检测、分类、标注、跟踪等计算机视觉的开发流程。开发者仅需加载数据集和模型，就能轻松实现对图像和视频进行检测、统计某区域的被检测数量等操作。",
+        "user": "roboflow",
+        "type": "Python",
+        "read": "2.4k",
+        "time": "1个月前"
+    }
+]
