@@ -1,8 +1,14 @@
 <script setup lang="ts">
-import data from "@/assets/data/homepage.json"
-import { onMounted } from 'vue'
+import data from "@/stores/homepage.json"
+import { onMounted, ref } from 'vue'
 
-const titleData: { icon: string, text: string, css: string }[] = [
+interface titleItem {
+  icon: string,
+  text: string,
+  css: string
+}
+
+const titleData = ref<titleItem[]>([
     {
         "icon": "iconfont icon-zhinanzhen",
         "text": "综合",
@@ -46,7 +52,7 @@ const titleData: { icon: string, text: string, css: string }[] = [
         "text": "游戏",
         "css": "text-new-blue bg-gray-100"
     },
-];
+]);
 let cssTrue: number = 0;
 let newHot: boolean = true;
 let nowdata: any[] = [];

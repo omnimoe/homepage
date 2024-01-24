@@ -3,6 +3,7 @@
 import TitleComponent from '@/components/TitleComponent.vue'
 import UserCardComponent from '@/components/UserCardComponent.vue'
 import SponsorCardComponent from '@/components/SponsorCardComponent.vue'
+import RecommendCardComponent from '@/components/RecommendCardComponent.vue'
 
 const stats = true;
 </script>
@@ -37,6 +38,7 @@ const stats = true;
           <div class="space-y-2">
             <user-card-component :stats="stats" />
             <sponsor-card-component />
+            <recommend-card-component />
           </div>
         </div>
       </div>
