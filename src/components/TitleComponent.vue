@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { defineProps } from 'vue'
+import { computed, defineProps } from 'vue'
 
 const props = defineProps({
   title: String,
@@ -23,7 +23,9 @@ const goBack = () => {
       <div class="w-3/4 truncate text-center font-bold">
         {{ title }}
       </div>
-      <div class="flex w-5"></div>
+      <slot name="right">
+        <div class="flex w-5"></div>
+      </slot>
     </div>
   </div>
 </template>

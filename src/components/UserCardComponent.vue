@@ -64,7 +64,7 @@ const props = defineProps({
           </div>
         </div>
       </div>
-      <div class="flex mt-3 justify-between border-t text-xs">
+      <div class="flex mt-3 justify-between border-t text-xs" v-else>
         <a href="">
           <div class="pt-2 pl-1 pb-1 text-gray-400 hover:text-blue-500 hover:underline">
             我的主页
