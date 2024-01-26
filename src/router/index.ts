@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '@/views/homepage/pcPage.vue'
+import HomeView from '@/views/HomePage.vue'
 import NotificationView from '@/views/NotificationView.vue'
 import ArticleView from '@/views/ArticleView.vue'
 import OnefileView from '@/views/OnefileView.vue'

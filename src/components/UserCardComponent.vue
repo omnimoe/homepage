@@ -20,7 +20,7 @@ const props = defineProps({
           </button>
         </div>
       </div>
-      <div class="relative" v-else>
+      <div class="relative" v-else-if="stats">
         <div class="flex">
           <a href="">
             <div class="top-0 left-0 h-10 w-10 shrink-0 grow-0 cursor-pointer rounded-lg object-cover">
@@ -64,7 +64,7 @@ const props = defineProps({
           </div>
         </div>
       </div>
-      <div class="flex mt-3 justify-between border-t text-xs" v-else>
+      <div class="flex mt-3 justify-between border-t text-xs">
         <a href="">
           <div class="pt-2 pl-1 pb-1 text-gray-400 hover:text-blue-500 hover:underline">
             我的主页
