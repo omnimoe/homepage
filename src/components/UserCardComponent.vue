@@ -8,6 +8,8 @@ const props = defineProps({
   }
 })
 
+console.log(props)
+
 </script>
 
 <template>
@@ -20,7 +22,7 @@ const props = defineProps({
           </button>
         </div>
       </div>
-      <div class="relative" v-else-if="stats">
+      <div class="relative" v-else>
         <div class="flex">
           <a href="">
             <div class="top-0 left-0 h-10 w-10 shrink-0 grow-0 cursor-pointer rounded-lg object-cover">
@@ -60,18 +62,18 @@ const props = defineProps({
             <span class="text-xl text-blue-500">0<span class="mx-0.5">/</span>64</span>
           </div>
           <div class="flex h-1.5 w-full overflow-hidden rounded-full bg-gray-200">
-            <div class="flex flex-col justify-center overflow-hidden bg-blue-500" style="width: 0%"></div>
+            <div class="flex flex-col justify-center overflow-hidden bg-blue-500" style="width: 0"></div>
           </div>
         </div>
-      </div>
-      <div class="flex mt-3 justify-between border-t text-xs">
-        <a href="">
-          <div class="pt-2 pl-1 pb-1 text-gray-400 hover:text-blue-500 hover:underline">
-            我的主页
+        <div class="flex mt-3 justify-between border-t text-xs">
+          <a href="">
+            <div class="pt-2 pl-1 pb-1 text-gray-400 hover:text-blue-500 hover:underline">
+              我的主页
+            </div>
+          </a>
+          <div class="cursor-pointer pr-1 pt-2 pb-1 text-gray-400 hover:text-blue-500 hover:underline">
+            退出登录
           </div>
-        </a>
-        <div class="cursor-pointer pr-1 pt-2 pb-1 text-gray-400 hover:text-blue-500 hover:underline">
-          退出登录
         </div>
       </div>
     </div>

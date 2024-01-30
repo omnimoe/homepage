@@ -5,7 +5,7 @@ import UserCardComponent from '@/components/UserCardComponent.vue'
 import SponsorCardComponent from '@/components/SponsorCardComponent.vue'
 import RecommendCardComponent from '@/components/RecommendCardComponent.vue'
 
-const stats = true;
+const stats: boolean = true;
 </script>
 
 <template>
