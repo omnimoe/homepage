@@ -1,5 +1,12 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
+import { RouterView, useRouter } from 'vue-router'
+
+const router = useRouter()
+
+const goPage = (path: string) => {
+  router.push(path)
+}
+
 </script>
 
 <template>
@@ -17,19 +24,19 @@ import { RouterView } from 'vue-router'
       </div>
       <ul class="text-md ml-5 flex items-center space-x-2 font-medium text-gray-500 md:pt-2">
         <li class="hidden md:block hover:font-bold hover:text-gray-800 hover:border-blue-500 hover:border-b-2 h-12 text-gray-500">
-          <button type="button" class="inline-flex items-center rounded px-2 py-2 focus:outline-none focus-visible:ring shadow-none transition-colors duration-75 text-current font-normal">首页</button>
+          <button type="button" class="inline-flex items-center rounded px-2 py-2 focus:outline-none focus-visible:ring shadow-none transition-colors duration-75 text-current font-normal" @click="goPage('/')">首页</button>
         </li>
         <li class="hidden md:block hover:font-bold hover:text-gray-800 hover:border-blue-500 hover:border-b-2 h-12 text-gray-500">
-          <button type="button" class="inline-flex items-center rounded px-2 py-2 focus:outline-none focus-visible:ring shadow-none transition-colors duration-75 text-current font-normal">月刊</button>
+          <button type="button" class="inline-flex items-center rounded px-2 py-2 focus:outline-none focus-visible:ring shadow-none transition-colors duration-75 text-current font-normal" @click="goPage('/periodical')">月刊</button>
         </li>
         <li class="hidden md:block hover:font-bold hover:text-gray-800 hover:border-blue-500 hover:border-b-2 h-12 text-gray-500">
-          <button type="button" class="inline-flex items-center rounded px-2 py-2 focus:outline-none focus-visible:ring shadow-none transition-colors duration-75 text-current font-normal">🏆榜单</button>
+          <button type="button" class="inline-flex items-center rounded px-2 py-2 focus:outline-none focus-visible:ring shadow-none transition-colors duration-75 text-current font-normal" @click="goPage('/report')">🏆榜单</button>
         </li>
         <li class="hidden md:block hover:font-bold hover:text-gray-800 hover:border-blue-500 hover:border-b-2 h-12 text-gray-500">
-          <button type="button" class="inline-flex items-center rounded px-2 py-2 focus:outline-none focus-visible:ring shadow-none transition-colors duration-75 text-current font-normal">文章</button>
+          <button type="button" class="inline-flex items-center rounded px-2 py-2 focus:outline-none focus-visible:ring shadow-none transition-colors duration-75 text-current font-normal" @click="goPage('/article')">文章</button>
         </li>
         <li class="hidden md:block hover:font-bold hover:text-gray-800 hover:border-blue-500 hover:border-b-2 h-12 text-gray-500">
-          <button type="button" class="inline-flex items-center rounded px-2 py-2 focus:outline-none focus-visible:ring shadow-none transition-colors duration-75 text-current font-normal">OenFile</button>
+          <button type="button" class="inline-flex items-center rounded px-2 py-2 focus:outline-none focus-visible:ring shadow-none transition-colors duration-75 text-current font-normal" @click="goPage('/onefile')">OneFile</button>
         </li>
       </ul>
       <div class="shrink grow"></div>
@@ -42,7 +49,7 @@ import { RouterView } from 'vue-router'
         </div>
         <div class="flex flex-row items-center">
           <span class="relative inline-flex">
-            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="text-gray-500 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-500" height="22" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M816 768h-24V428c0-141.1-104.3-257.7-240-277.1V112c0-22.1-17.9-40-40-40s-40 17.9-40 40v38.9c-135.7 19.4-240 136-240 277.1v340h-24c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h216c0 61.8 50.2 112 112 112s112-50.2 112-112h216c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM512 888c-26.5 0-48-21.5-48-48h96c0 26.5-21.5 48-48 48zM304 768V428c0-55.6 21.6-107.8 60.9-147.1S456.4 220 512 220c55.6 0 107.8 21.6 147.1 60.9S720 372.4 720 428v340H304z"></path></svg>
+            <svg @click="goPage('/notification')" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="text-gray-500 hover:text-blue-500 dark:text-gray-400 dark:hover:text-blue-500" height="22" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M816 768h-24V428c0-141.1-104.3-257.7-240-277.1V112c0-22.1-17.9-40-40-40s-40 17.9-40 40v38.9c-135.7 19.4-240 136-240 277.1v340h-24c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h216c0 61.8 50.2 112 112 112s112-50.2 112-112h216c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM512 888c-26.5 0-48-21.5-48-48h96c0 26.5-21.5 48-48 48zM304 768V428c0-55.6 21.6-107.8 60.9-147.1S456.4 220 512 220c55.6 0 107.8 21.6 147.1 60.9S720 372.4 720 428v340H304z"></path></svg>
             <div class="w-2"></div>
           </span>
         </div>

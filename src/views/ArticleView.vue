@@ -12,7 +12,7 @@ const stats = true;
   <main class="container mx-auto px-0 xl:px-40 2xl:px-56">
     <div class="flex shrink grow flex-row md:border-none">
       <div class="relative w-0 shrink grow lg:w-9/12 lg:grow-0">
-        <div class="h-screen divide-y divide-gray-100">
+        <div class="h-[99%] divide-y divide-gray-100">
           <title-component title="文章">
             <template #right>
               <div class="flex justify-end text-sm text-gray-500">
@@ -21,7 +21,7 @@ const stats = true;
               </div>
             </template>
           </title-component>
-          <div class="h-screen">
+          <div class="h-[99%]">
             <div class="divide-y divide-slate-100 bg-white md:overflow-hidden md:rounded-lg">
               <article>
                 <a href="">
